@@ -8,4 +8,4 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: ghcr.io/anweiss/cddl-cli:latest
+      - uses: docker://ghcr.io/anweiss/cddl-cli:latest
