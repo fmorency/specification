@@ -13,4 +13,4 @@ jobs:
         run: find . -iname \*.cddl | xargs cat > ~/temp.cddl
       - uses: docker://ghcr.io/anweiss/cddl-cli:latest
         with:
-          args: compile-cddl -- cddl ~/temp.cddl
+          args: compile-cddl --cddl ~/temp.cddl
