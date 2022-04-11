@@ -11,8 +11,3 @@ jobs:
       image: ghcr.io/anweiss/cddl-cli:latest
     steps:
       - uses: actions/checkout@v3
-      - name: Concatenate all CDDL files
-        shell: bash
-        run: |
-          echo 123
-          cddl
